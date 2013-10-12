@@ -13,11 +13,11 @@
 @property (nonatomic, strong)SKSpriteNode *mask;
 @property (nonatomic)CGFloat widthTiles;
 @property (nonatomic)CGFloat heightTiles;
-@property (nonatomic, strong)NSArray *tileTextures;
+@property (nonatomic, strong, readonly)NSArray *tileTextures;
 @end
 
 @implementation TWTiledSpriteNode
-
+@synthesize tileTextures = _tileTextures;
 -(id)initWithTexture:(SKTexture*)texture andSize:(CGSize)size{
 	NSArray *array = [NSArray arrayWithObject:texture];
 	self = [self initWithTextures:array andSize:size];
@@ -90,5 +90,7 @@
 	_heightTiles = _size.height/first.size.height;
 }
 
-
+-(NSArray *)tileTextures{
+	return [_tileTextures copy];
+}
 @end
