@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "MyScene.h"
-
 @implementation ViewController
 
 - (void)viewDidLoad
@@ -23,8 +22,7 @@
     // Create and configure the scene.
     SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
+    		//Present the scene.
     [skView presentScene:scene];
 }
 

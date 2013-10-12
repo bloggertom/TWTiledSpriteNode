@@ -24,6 +24,11 @@
 		DB1932A818099224000023CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19328318099224000023CD /* UIKit.framework */; };
 		DB1932B018099224000023CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1932AE18099224000023CD /* InfoPlist.strings */; };
 		DB1932B218099224000023CD /* TWTiledSpriteNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1932B118099224000023CD /* TWTiledSpriteNodeTests.m */; };
+		DB1932C31809AA81000023CD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1932BF1809AA81000023CD /* 1.png */; };
+		DB1932C41809AA81000023CD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1932C01809AA81000023CD /* 2.png */; };
+		DB1932C51809AA81000023CD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1932C11809AA81000023CD /* 3.png */; };
+		DB1932C61809AA81000023CD /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1932C21809AA81000023CD /* 4.png */; };
+		DB1932C91809C2D5000023CD /* TWTiledSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1932C81809C2D5000023CD /* TWTiledSpriteNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,12 @@
 		DB1932AD18099224000023CD /* TWTiledSpriteNodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWTiledSpriteNodeTests-Info.plist"; sourceTree = "<group>"; };
 		DB1932AF18099224000023CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB1932B118099224000023CD /* TWTiledSpriteNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTiledSpriteNodeTests.m; sourceTree = "<group>"; };
+		DB1932BF1809AA81000023CD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		DB1932C01809AA81000023CD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		DB1932C11809AA81000023CD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		DB1932C21809AA81000023CD /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		DB1932C71809C2D5000023CD /* TWTiledSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTiledSpriteNode.h; sourceTree = "<group>"; };
+		DB1932C81809C2D5000023CD /* TWTiledSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTiledSpriteNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +132,7 @@
 		DB19328718099224000023CD /* TWTiledSpriteNode */ = {
 			isa = PBXGroup;
 			children = (
+				DB1932BE1809AA6F000023CD /* Floor Textures */,
 				DB19329018099224000023CD /* AppDelegate.h */,
 				DB19329118099224000023CD /* AppDelegate.m */,
 				DB19329318099224000023CD /* Main.storyboard */,
@@ -131,6 +143,8 @@
 				DB19329C18099224000023CD /* Spaceship.png */,
 				DB19329E18099224000023CD /* Images.xcassets */,
 				DB19328818099224000023CD /* Supporting Files */,
+				DB1932C71809C2D5000023CD /* TWTiledSpriteNode.h */,
+				DB1932C81809C2D5000023CD /* TWTiledSpriteNode.m */,
 			);
 			path = TWTiledSpriteNode;
 			sourceTree = "<group>";
@@ -162,6 +176,17 @@
 				DB1932AE18099224000023CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1932BE1809AA6F000023CD /* Floor Textures */ = {
+			isa = PBXGroup;
+			children = (
+				DB1932BF1809AA81000023CD /* 1.png */,
+				DB1932C01809AA81000023CD /* 2.png */,
+				DB1932C11809AA81000023CD /* 3.png */,
+				DB1932C21809AA81000023CD /* 4.png */,
+			);
+			name = "Floor Textures";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1932C41809AA81000023CD /* 2.png in Resources */,
 				DB19328C18099224000023CD /* InfoPlist.strings in Resources */,
 				DB19329F18099224000023CD /* Images.xcassets in Resources */,
 				DB19329D18099224000023CD /* Spaceship.png in Resources */,
+				DB1932C61809AA81000023CD /* 4.png in Resources */,
 				DB19329518099224000023CD /* Main.storyboard in Resources */,
+				DB1932C51809AA81000023CD /* 3.png in Resources */,
+				DB1932C31809AA81000023CD /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1932C91809C2D5000023CD /* TWTiledSpriteNode.m in Sources */,
 				DB19329B18099224000023CD /* MyScene.m in Sources */,
 				DB19329818099224000023CD /* ViewController.m in Sources */,
 				DB19329218099224000023CD /* AppDelegate.m in Sources */,
