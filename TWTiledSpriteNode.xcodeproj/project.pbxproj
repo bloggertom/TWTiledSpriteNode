@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB19328018099224000023CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19327F18099224000023CD /* Foundation.framework */; };
+		DB19328218099224000023CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19328118099224000023CD /* CoreGraphics.framework */; };
+		DB19328418099224000023CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19328318099224000023CD /* UIKit.framework */; };
+		DB19328618099224000023CD /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19328518099224000023CD /* SpriteKit.framework */; };
+		DB19328C18099224000023CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB19328A18099224000023CD /* InfoPlist.strings */; };
+		DB19328E18099224000023CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19328D18099224000023CD /* main.m */; };
+		DB19329218099224000023CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19329118099224000023CD /* AppDelegate.m */; };
+		DB19329518099224000023CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19329318099224000023CD /* Main.storyboard */; };
+		DB19329818099224000023CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19329718099224000023CD /* ViewController.m */; };
+		DB19329B18099224000023CD /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19329A18099224000023CD /* MyScene.m */; };
+		DB19329D18099224000023CD /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = DB19329C18099224000023CD /* Spaceship.png */; };
+		DB19329F18099224000023CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB19329E18099224000023CD /* Images.xcassets */; };
+		DB1932A618099224000023CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1932A518099224000023CD /* XCTest.framework */; };
+		DB1932A718099224000023CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19327F18099224000023CD /* Foundation.framework */; };
+		DB1932A818099224000023CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB19328318099224000023CD /* UIKit.framework */; };
+		DB1932B018099224000023CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1932AE18099224000023CD /* InfoPlist.strings */; };
+		DB1932B218099224000023CD /* TWTiledSpriteNodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1932B118099224000023CD /* TWTiledSpriteNodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1932A918099224000023CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB19327418099224000023CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB19327B18099224000023CD;
+			remoteInfo = TWTiledSpriteNode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB19327C18099224000023CD /* TWTiledSpriteNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWTiledSpriteNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB19327F18099224000023CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB19328118099224000023CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB19328318099224000023CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB19328518099224000023CD /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		DB19328918099224000023CD /* TWTiledSpriteNode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWTiledSpriteNode-Info.plist"; sourceTree = "<group>"; };
+		DB19328B18099224000023CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB19328D18099224000023CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB19328F18099224000023CD /* TWTiledSpriteNode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWTiledSpriteNode-Prefix.pch"; sourceTree = "<group>"; };
+		DB19329018099224000023CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB19329118099224000023CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB19329418099224000023CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB19329618099224000023CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB19329718099224000023CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB19329918099224000023CD /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		DB19329A18099224000023CD /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		DB19329C18099224000023CD /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		DB19329E18099224000023CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB1932A418099224000023CD /* TWTiledSpriteNodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWTiledSpriteNodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1932A518099224000023CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB1932AD18099224000023CD /* TWTiledSpriteNodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWTiledSpriteNodeTests-Info.plist"; sourceTree = "<group>"; };
+		DB1932AF18099224000023CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1932B118099224000023CD /* TWTiledSpriteNodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTiledSpriteNodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB19327918099224000023CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19328218099224000023CD /* CoreGraphics.framework in Frameworks */,
+				DB19328418099224000023CD /* UIKit.framework in Frameworks */,
+				DB19328618099224000023CD /* SpriteKit.framework in Frameworks */,
+				DB19328018099224000023CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1932A118099224000023CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1932A618099224000023CD /* XCTest.framework in Frameworks */,
+				DB1932A818099224000023CD /* UIKit.framework in Frameworks */,
+				DB1932A718099224000023CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB19327318099224000023CD = {
+			isa = PBXGroup;
+			children = (
+				DB19328718099224000023CD /* TWTiledSpriteNode */,
+				DB1932AB18099224000023CD /* TWTiledSpriteNodeTests */,
+				DB19327E18099224000023CD /* Frameworks */,
+				DB19327D18099224000023CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB19327D18099224000023CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB19327C18099224000023CD /* TWTiledSpriteNode.app */,
+				DB1932A418099224000023CD /* TWTiledSpriteNodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB19327E18099224000023CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB19327F18099224000023CD /* Foundation.framework */,
+				DB19328118099224000023CD /* CoreGraphics.framework */,
+				DB19328318099224000023CD /* UIKit.framework */,
+				DB19328518099224000023CD /* SpriteKit.framework */,
+				DB1932A518099224000023CD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB19328718099224000023CD /* TWTiledSpriteNode */ = {
+			isa = PBXGroup;
+			children = (
+				DB19329018099224000023CD /* AppDelegate.h */,
+				DB19329118099224000023CD /* AppDelegate.m */,
+				DB19329318099224000023CD /* Main.storyboard */,
+				DB19329618099224000023CD /* ViewController.h */,
+				DB19329718099224000023CD /* ViewController.m */,
+				DB19329918099224000023CD /* MyScene.h */,
+				DB19329A18099224000023CD /* MyScene.m */,
+				DB19329C18099224000023CD /* Spaceship.png */,
+				DB19329E18099224000023CD /* Images.xcassets */,
+				DB19328818099224000023CD /* Supporting Files */,
+			);
+			path = TWTiledSpriteNode;
+			sourceTree = "<group>";
+		};
+		DB19328818099224000023CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB19328918099224000023CD /* TWTiledSpriteNode-Info.plist */,
+				DB19328A18099224000023CD /* InfoPlist.strings */,
+				DB19328D18099224000023CD /* main.m */,
+				DB19328F18099224000023CD /* TWTiledSpriteNode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1932AB18099224000023CD /* TWTiledSpriteNodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1932B118099224000023CD /* TWTiledSpriteNodeTests.m */,
+				DB1932AC18099224000023CD /* Supporting Files */,
+			);
+			path = TWTiledSpriteNodeTests;
+			sourceTree = "<group>";
+		};
+		DB1932AC18099224000023CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1932AD18099224000023CD /* TWTiledSpriteNodeTests-Info.plist */,
+				DB1932AE18099224000023CD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB19327B18099224000023CD /* TWTiledSpriteNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1932B518099224000023CD /* Build configuration list for PBXNativeTarget "TWTiledSpriteNode" */;
+			buildPhases = (
+				DB19327818099224000023CD /* Sources */,
+				DB19327918099224000023CD /* Frameworks */,
+				DB19327A18099224000023CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWTiledSpriteNode;
+			productName = TWTiledSpriteNode;
+			productReference = DB19327C18099224000023CD /* TWTiledSpriteNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1932A318099224000023CD /* TWTiledSpriteNodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1932B818099224000023CD /* Build configuration list for PBXNativeTarget "TWTiledSpriteNodeTests" */;
+			buildPhases = (
+				DB1932A018099224000023CD /* Sources */,
+				DB1932A118099224000023CD /* Frameworks */,
+				DB1932A218099224000023CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1932AA18099224000023CD /* PBXTargetDependency */,
+			);
+			name = TWTiledSpriteNodeTests;
+			productName = TWTiledSpriteNodeTests;
+			productReference = DB1932A418099224000023CD /* TWTiledSpriteNodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB19327418099224000023CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Thomas Wilson";
+				TargetAttributes = {
+					DB1932A318099224000023CD = {
+						TestTargetID = DB19327B18099224000023CD;
+					};
+				};
+			};
+			buildConfigurationList = DB19327718099224000023CD /* Build configuration list for PBXProject "TWTiledSpriteNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB19327318099224000023CD;
+			productRefGroup = DB19327D18099224000023CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB19327B18099224000023CD /* TWTiledSpriteNode */,
+				DB1932A318099224000023CD /* TWTiledSpriteNodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB19327A18099224000023CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19328C18099224000023CD /* InfoPlist.strings in Resources */,
+				DB19329F18099224000023CD /* Images.xcassets in Resources */,
+				DB19329D18099224000023CD /* Spaceship.png in Resources */,
+				DB19329518099224000023CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1932A218099224000023CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1932B018099224000023CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB19327818099224000023CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB19329B18099224000023CD /* MyScene.m in Sources */,
+				DB19329818099224000023CD /* ViewController.m in Sources */,
+				DB19329218099224000023CD /* AppDelegate.m in Sources */,
+				DB19328E18099224000023CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1932A018099224000023CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1932B218099224000023CD /* TWTiledSpriteNodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1932AA18099224000023CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB19327B18099224000023CD /* TWTiledSpriteNode */;
+			targetProxy = DB1932A918099224000023CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB19328A18099224000023CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB19328B18099224000023CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB19329318099224000023CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB19329418099224000023CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1932AE18099224000023CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1932AF18099224000023CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1932B318099224000023CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1932B418099224000023CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1932B618099224000023CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWTiledSpriteNode/TWTiledSpriteNode-Prefix.pch";
+				INFOPLIST_FILE = "TWTiledSpriteNode/TWTiledSpriteNode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB1932B718099224000023CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWTiledSpriteNode/TWTiledSpriteNode-Prefix.pch";
+				INFOPLIST_FILE = "TWTiledSpriteNode/TWTiledSpriteNode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB1932B918099224000023CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TWTiledSpriteNode.app/TWTiledSpriteNode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWTiledSpriteNode/TWTiledSpriteNode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TWTiledSpriteNodeTests/TWTiledSpriteNodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB1932BA18099224000023CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TWTiledSpriteNode.app/TWTiledSpriteNode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWTiledSpriteNode/TWTiledSpriteNode-Prefix.pch";
+				INFOPLIST_FILE = "TWTiledSpriteNodeTests/TWTiledSpriteNodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB19327718099224000023CD /* Build configuration list for PBXProject "TWTiledSpriteNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1932B318099224000023CD /* Debug */,
+				DB1932B418099224000023CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1932B518099224000023CD /* Build configuration list for PBXNativeTarget "TWTiledSpriteNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1932B618099224000023CD /* Debug */,
+				DB1932B718099224000023CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB1932B818099224000023CD /* Build configuration list for PBXNativeTarget "TWTiledSpriteNodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1932B918099224000023CD /* Debug */,
+				DB1932BA18099224000023CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB19327418099224000023CD /* Project object */;
+}
