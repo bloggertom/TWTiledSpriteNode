@@ -41,6 +41,7 @@
 @implementation TWTiledSpriteNode
 @synthesize tileTextures = _tileTextures;
 @synthesize size = _size;
+
 -(id)initWithTexture:(SKTexture*)texture andSize:(CGSize)size{
 	NSArray *array = [NSArray arrayWithObject:texture];
 	self = [self initWithTextures:array andSize:_size];
