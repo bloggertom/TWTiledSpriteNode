@@ -52,11 +52,16 @@
 			}
 			[array addObject:texture];
 		}
-		_currentSize = self.size;
+		_currentSize = CGSizeMake(50, 50);
 		_tiledNode = [[TWTiledSpriteNode alloc]initWithTextures:array andSize:_currentSize];
-			//_tiledNode.position = CGPointMake(100, 100);
+		_tiledNode.position = CGPointMake(100, 100);
 		
+		
+		SKSpriteNode *node = [SKSpriteNode spriteNodeWithColor:[UIColor greenColor] size:CGSizeMake(32, 32)];
+		node.position = CGPointMake(100, 100);
 		[self addChild:_tiledNode];
+		[self addChild:node
+		 ];
 
         
     }
