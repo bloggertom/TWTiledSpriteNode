@@ -31,6 +31,7 @@
 @interface TWTiledSpriteNode : SKSpriteNode
 
 @property(nonatomic)CGSize size;
+@property (nonatomic)CGSize tileSize;
 
 -(id)initWithTextures:(NSArray *)textures andSize:(CGSize)size;
 -(id)initWithTexture:(SKTexture*)texture andSize:(CGSize)size;

@@ -52,14 +52,11 @@
 			}
 			[array addObject:texture];
 		}
-		_currentSize = self.size;
+		_currentSize = CGSizeMake(100, 100);
 		_tiledNode = [[TWTiledSpriteNode alloc]initWithTextures:array andSize:_currentSize];
 		_tiledNode.position = CGPointMake(_tiledNode.size.width/2, _tiledNode.size.height/2);
-		
-		
-			//SKSpriteNode *node = [SKSpriteNode spriteNodeWithColor:[UIColor greenColor] size:CGSizeMake(32, 32)];
-			//node.position = CGPointMake(200, 200);
-		
+		_tiledNode.position = CGPointMake(200, 200);
+			//[_tiledNode setTileSize:CGSizeMake(100, 100)];
 		[self addChild:_tiledNode];
 			//[self addChild:node];
         
@@ -90,7 +87,7 @@
     /* Called before each frame is rendered */
 	if (!CGSizeEqualToSize(_tiledNode.size, _currentSize)) {
 		[_tiledNode setSize:_currentSize];
-		_tiledNode.position = CGPointMake(_currentSize.width/2, _currentSize.height/2);
+			//_tiledNode.position = CGPointMake(_currentSize.width/2, _currentSize.height/2);
 	}
 	
 }
