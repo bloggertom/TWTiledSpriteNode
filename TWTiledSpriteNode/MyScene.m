@@ -55,10 +55,12 @@
 		_currentSize = CGSizeMake(100, 100);
 		_tiledNode = [[TWTiledSpriteNode alloc]initWithTextures:array andSize:_currentSize];
 		_tiledNode.position = CGPointMake(_tiledNode.size.width/2, _tiledNode.size.height/2);
-		_tiledNode.position = CGPointMake(200, 200);
+		
+		
+			//set this to adjust tile size.
 			//[_tiledNode setTileSize:CGSizeMake(100, 100)];
 		[self addChild:_tiledNode];
-			//[self addChild:node];
+			
         
     }
     return self;
@@ -87,7 +89,7 @@
     /* Called before each frame is rendered */
 	if (!CGSizeEqualToSize(_tiledNode.size, _currentSize)) {
 		[_tiledNode setSize:_currentSize];
-			//_tiledNode.position = CGPointMake(_currentSize.width/2, _currentSize.height/2);
+		_tiledNode.position = CGPointMake(_currentSize.width/2, _currentSize.height/2);
 	}
 	
 }
